@@ -1,0 +1,204 @@
+/* Add CSS for the forum section */
+#forum-section {
+    text-align: center;
+    padding: 2rem;
+    color: #333;
+}
+
+#forum-section h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.user-info {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-bottom: 10px;
+}
+
+.user-info img {
+    width: 40px; /* Set the width of the profile picture */
+    height: 40px; /* Set the height of the profile picture */
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 10px; /* Add some spacing between the image and username */
+}
+
+.user-info h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.forum-post {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.forum-post h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.forum-post p {
+    font-size: 1.2rem;
+    color: #777;
+    margin: 10px 0;
+}
+
+.forum-post-form {
+    margin-top: 30px;
+}
+
+.forum-post-form h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.forum-post-form form {
+    text-align: left;
+}
+
+.forum-post-form label {
+    display: block;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.forum-post-form input,
+.forum-post-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.forum-post-form button {
+    background-color: #6a5acd;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.forum-post-form button:hover {
+    background-color: #483d8b;
+}
+
+/* Match the style of the main and header */
+main {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header {
+    background-color: #6a5acd;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Add CSS for the footer */
+footer {
+    background-color: #6a5acd;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+/* Add CSS for the forum section */
+#forum-section {
+    text-align: center;
+    padding: 2rem;
+    color: #fff; /* Set the text color to white or another contrasting color */
+}
+
+.background-container {
+    background-image: url('https://img.freepik.com/premium-vector/family-bicycle-cartoon-outdoor-bike-ride-nature-with-kids-mom-dad-family-characters-together-active-leisure-cycling-park-vector-illustration_102902-6553.jpg'); /* Replace 'background-image.jpg' with your image URL */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    padding: 20px; /* Add padding to the container for spacing */
+}
+
+.background-container h1 {
+    font-size: 2rem;
+    color: #333; /* Set the text color for the title */
+    margin: 0; /* Remove default margin */
+}
+
+/* Rest of your existing CSS styles... */
+/* Existing styles... */
+
+.forum-post-form form {
+    text-align: left;
+    color: #333; /* Set text color for form elements */
+}
+
+.forum-post-form label {
+    display: block;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333; /* Set text color for labels */
+}
+
+.forum-post-form input,
+.forum-post-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    color: #333; /* Set text color for input and textarea */
+}
+
+.forum-post-form button {
+    background-color: #6a5acd;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.forum-post-form button:hover {
+    background-color: #483d8b;
+}
+
+/* Existing styles... */
+
