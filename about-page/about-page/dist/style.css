@@ -1,0 +1,104 @@
+/* Add CSS for the about section */
+#about-section {
+    text-align: center;
+    padding: 2rem;
+    color: #333;
+}
+
+#about-section h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.profile-pic {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0; /* Add margin to create space above and below the image */
+}
+
+#about-section p {
+    font-size: 1.2rem;
+    color: #777;
+    margin: 20px 0; /* Add margin to create space below the text */
+}
+
+/* Add CSS for the top navigation menu */
+header {
+    background-color: #6a5acd;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Add CSS for the footer */
+footer {
+    background-color: #6a5acd;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title>
+</head>
+<body>
+    <h1>Contact Information</h1>
+
+    <p>If you have any questions or need to reach us, you can contact us via the following methods:</p>
+
+    <h2>Email</h2>
+    <p>Email us at <a href="mailto:contact@example.com">contact@example.com</a></p>
+
+    <h2>Phone</h2>
+    <p>Call us at <a href="tel:+1234567890">123-456-7890</a></p>
+
+    <h2>Address</h2>
+    <address>
+        123 Main Street<br>
+        City, State 12345<br>
+        Country
+    </address>
+
+    <h2>Social Media</h2>
+    <ul>
+        <li><a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a></li>
+        <li><a href="https://www.twitter.com/yourprofile" target="_blank">Twitter</a></li>
+        <li><a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a></li>
+    </ul>
+</body>
+</html>
